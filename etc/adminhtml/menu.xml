@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="DeveloperHub_AddressAutoComplete::developerhub"
+             title="Address Auto Complete"
+             module="DeveloperHub_AddressAutoComplete"
+             sortOrder="1"
+             parent="DeveloperHub_Core::developerhub"
+             resource="DeveloperHub_AddressAutoComplete::menu"/>
+        <add id="DeveloperHub_AddressAutoComplete::configurations"
+             title="Configuration"
+             module="DeveloperHub_AddressAutoComplete"
+             sortOrder="5"
+             parent="DeveloperHub_AddressAutoComplete::developerhub"
+             resource="DeveloperHub_Configuration::configuration"
+             action="admin/system_config/edit/section/address_autocomplete"/>
+    </menu>
+</config>

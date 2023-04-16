@@ -1,0 +1,28 @@
+{
+    "name": "devhub/address-auto-complete",
+    "description": "By using this extension customers can get address auto complete suggestions while filling their billing or shipping address on different places.",
+    "require": {
+        "php": ">=7.1.0",
+        "devhub/core": "1.0.*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.1",
+    "license": [
+        "proprietary"
+    ],
+    "authors": [
+        {
+            "name": "Support",
+            "homepage": "https://www.thedeveloperhub.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "DeveloperHub\\AddressAutoComplete\\": ""
+        }
+    }
+}
